@@ -1,0 +1,25 @@
+require: rubocop-rspec
+
+inherit_gem:
+  gc_ruboconfig: rubocop.yml
+
+AllCops:
+  NewCops: enable
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 90
+
+Metrics/MethodLength:
+  Max: 10
+
+RSpec/ExampleLength:
+  Max: 10
+
+RSpec/MultipleExpectations:
+  Max: 3
